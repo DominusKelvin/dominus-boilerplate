@@ -27,10 +27,13 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div className="container">
-                <h2 className="text-center">Master Web3 Boilerplate challenge</h2>
-                <section className="text-center">
-                <input className="btn btn-primary" type="submit" value="Login with Waves" onClick={this.authFunc}/>
+            <div className="container mt-3">
+                <blockquote class="blockquote text-center mb-1 text-muted">
+                <p class="mb-0">Everything will be tokenized and connected by a blockchain one day.</p>
+                <footer class="blockquote-footer">Fred Ehrsam </footer>
+                </blockquote>
+                <section className="mt-3 text-center">
+                <input className="btn btn-primary" type="submit" value="Login with Waves to see why" onClick={this.authFunc}/>
                 </section>
             </div>
         )
